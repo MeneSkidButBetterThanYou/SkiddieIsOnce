@@ -1,5 +1,4 @@
 	game:GetService("StarterGui"):SetCoreGuiEnabled(Enum.CoreGuiType.Chat, true)
-	game.Players.LocalPlayer.PlayerGui.CharacterSelection.Character.Value = "Sans"
 	game.Players.LocalPlayer.Chatted:connect(function(arg_1)
 		local SW_4 = getrenv()._G.Pass
 		local SW_5 = "Chatted"
