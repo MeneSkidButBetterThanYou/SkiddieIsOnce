@@ -2485,7 +2485,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 
 			Label.Name = "Label"
 			Label.Parent = Container
-			Label.BackgroundColor3 = Color3.fromRGB(0, 135, 0)
+			Label.BackgroundColor3 = Color3.fromRGB(0, 135, 95)
 			Label.ClipsDescendants = true
 			Label.Position = UDim2.new(0.370312512, 0, 0.552631557, 0)
 			Label.Size = UDim2.new(0, 457, 0, 43)
