@@ -168,7 +168,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 	Title.Size = UDim2.new(0, 111, 0, 34)
 	Title.Font = Enum.Font.GothamBold
 	Title.Text = text
-	Title.TextColor3 = Color3.fromRGB(21, 24, 184)
+	Title.TextColor3 = Color3.fromRGB(21, 184, 24)
 	Title.TextSize = 25.000
 
 	BottomText.Name = "BottomText"
@@ -2485,7 +2485,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 
 			Label.Name = "Label"
 			Label.Parent = Container
-			Label.BackgroundColor3 = Color3.fromRGB(0, 0, 135)
+			Label.BackgroundColor3 = Color3.fromRGB(0, 135, 0)
 			Label.ClipsDescendants = true
 			Label.Position = UDim2.new(0.370312512, 0, 0.552631557, 0)
 			Label.Size = UDim2.new(0, 457, 0, 43)
