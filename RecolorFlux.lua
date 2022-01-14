@@ -448,7 +448,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 		TabCorner.Name = "ButtonCorner"
 		TabCorner.Parent = Tab
 
-		UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(160, 207, 236)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(102, 152, 255))}
+		UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(160, 236, 207)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(102, 255, 152))}
 		UIGradient.Parent = Tab
 
 		TabIcon.Name = "TabIcon"
@@ -817,7 +817,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 
 			Toggle.Name = "Toggle"
 			Toggle.Parent = Container
-			Toggle.BackgroundColor3 = Color3.fromRGB(78, 219, 139)
+			Toggle.BackgroundColor3 = Color3.fromRGB(78, 219, 150)
 			Toggle.ClipsDescendants = true
 			Toggle.Position = UDim2.new(0.110937506, 0, 0.67653507, 0)
 			Toggle.Size = UDim2.new(0, 457, 0, 43)
@@ -860,7 +860,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 			CircleSmall.Parent = Circle
 			CircleSmall.Active = true
 			CircleSmall.AnchorPoint = Vector2.new(0.5, 0.5)
-			CircleSmall.BackgroundColor3 = Color3.fromRGB(78, 219, 139)
+			CircleSmall.BackgroundColor3 = Color3.fromRGB(78, 219, 150)
 			CircleSmall.BackgroundTransparency = 1.000
 			CircleSmall.Position = UDim2.new(0.485673368, 0, 0.503000021, 0)
 			CircleSmall.Size = UDim2.new(0, 9, 0, 9)
@@ -1088,7 +1088,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 
 			Slider.Name = "Slider"
 			Slider.Parent = Container
-			Slider.BackgroundColor3 = Color3.fromRGB(78, 219, 139)
+			Slider.BackgroundColor3 = Color3.fromRGB(78, 219, 150)
 			Slider.ClipsDescendants = true
 			Slider.Position = UDim2.new(0.189062506, 0, 0.648612201, 0)
 			Slider.Size = UDim2.new(0, 457, 0, 60)
@@ -1132,7 +1132,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 			CircleSmall.Parent = Circle
 			CircleSmall.Active = true
 			CircleSmall.AnchorPoint = Vector2.new(0.5, 0.5)
-			CircleSmall.BackgroundColor3 = Color3.fromRGB(78, 219, 139)
+			CircleSmall.BackgroundColor3 = Color3.fromRGB(78, 219, 150)
 			CircleSmall.BackgroundTransparency = 1.000
 			CircleSmall.Position = UDim2.new(0.485673368, 0, 0.503000021, 0)
 			CircleSmall.Size = UDim2.new(0, 9, 0, 9)
@@ -1400,7 +1400,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 
 			Dropdown.Name = "Dropdown"
 			Dropdown.Parent = Container
-			Dropdown.BackgroundColor3 = Color3.fromRGB(78, 219, 139)
+			Dropdown.BackgroundColor3 = Color3.fromRGB(78, 219, 150)
 			Dropdown.ClipsDescendants = true
 			Dropdown.Position = UDim2.new(0.110937499, 0, 0.67653507, 0)
 			Dropdown.Size = UDim2.new(0, 457, 0, 43)
@@ -1443,7 +1443,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 			CircleSmall.Parent = Circle
 			CircleSmall.Active = true
 			CircleSmall.AnchorPoint = Vector2.new(0.5, 0.5)
-			CircleSmall.BackgroundColor3 = Color3.fromRGB(78, 219, 139)
+			CircleSmall.BackgroundColor3 = Color3.fromRGB(78, 219, 150)
 			CircleSmall.BackgroundTransparency = 1.000
 			CircleSmall.Position = UDim2.new(0.485673368, 0, 0.503000021, 0)
 			CircleSmall.Size = UDim2.new(0, 9, 0, 9)
@@ -1901,7 +1901,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 
 			Colorpicker.Name = "Colorpicker"
 			Colorpicker.Parent = Container
-			Colorpicker.BackgroundColor3 = Color3.fromRGB(78, 219, 139)
+			Colorpicker.BackgroundColor3 = Color3.fromRGB(78, 219, 150)
 			Colorpicker.ClipsDescendants = true
 			Colorpicker.Position = UDim2.new(0.110937499, 0, 0.67653507, 0)
 			Colorpicker.Size = UDim2.new(0, 457, 0, 43)
@@ -1951,7 +1951,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 			CircleSmall.Parent = Circle
 			CircleSmall.Active = true
 			CircleSmall.AnchorPoint = Vector2.new(0.5, 0.5)
-			CircleSmall.BackgroundColor3 = Color3.fromRGB(78, 219, 139)
+			CircleSmall.BackgroundColor3 = Color3.fromRGB(78, 219, 150)
 			CircleSmall.BackgroundTransparency = 1.000
 			CircleSmall.Position = UDim2.new(0.485673368, 0, 0.503000021, 0)
 			CircleSmall.Size = UDim2.new(0, 9, 0, 9)
@@ -2419,7 +2419,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 
 			Label.Name = "Label"
 			Label.Parent = Container
-			Label.BackgroundColor3 = Color3.fromRGB(78, 219, 139)
+			Label.BackgroundColor3 = Color3.fromRGB(78, 219, 150)
 			Label.ClipsDescendants = true
 			Label.Position = UDim2.new(0.370312512, 0, 0.552631557, 0)
 			Label.Size = UDim2.new(0, 457, 0, 43)
@@ -2558,7 +2558,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 
 			Textbox.Name = "Textbox"
 			Textbox.Parent = Container
-			Textbox.BackgroundColor3 = Color3.fromRGB(78, 219, 139)
+			Textbox.BackgroundColor3 = Color3.fromRGB(78, 219, 150)
 			Textbox.ClipsDescendants = true
 			Textbox.Position = UDim2.new(0.0459499061, 0, 0.734449744, 0)
 			Textbox.Size = UDim2.new(0, 457, 0, 43)
@@ -2601,7 +2601,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 			CircleSmall.Parent = Circle
 			CircleSmall.Active = true
 			CircleSmall.AnchorPoint = Vector2.new(0.5, 0.5)
-			CircleSmall.BackgroundColor3 = Color3.fromRGB(78, 219, 139)
+			CircleSmall.BackgroundColor3 = Color3.fromRGB(78, 219, 150)
 			CircleSmall.BackgroundTransparency = 1.000
 			CircleSmall.Position = UDim2.new(0.485673368, 0, 0.503000021, 0)
 			CircleSmall.Size = UDim2.new(0, 9, 0, 9)
@@ -2812,7 +2812,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 
 			Bind.Name = "Bind"
 			Bind.Parent = Container
-			Bind.BackgroundColor3 = Color3.fromRGB(78, 219, 139)
+			Bind.BackgroundColor3 = Color3.fromRGB(78, 219, 150)
 			Bind.ClipsDescendants = true
 			Bind.Position = UDim2.new(0.40625, 0, 0.828947306, 0)
 			Bind.Size = UDim2.new(0, 457, 0, 43)
@@ -2855,7 +2855,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 			CircleSmall.Parent = Circle
 			CircleSmall.Active = true
 			CircleSmall.AnchorPoint = Vector2.new(0.5, 0.5)
-			CircleSmall.BackgroundColor3 = Color3.fromRGB(78, 219, 139)
+			CircleSmall.BackgroundColor3 = Color3.fromRGB(78, 219, 150)
 			CircleSmall.BackgroundTransparency = 1.000
 			CircleSmall.Position = UDim2.new(0.485673368, 0, 0.503000021, 0)
 			CircleSmall.Size = UDim2.new(0, 9, 0, 9)
